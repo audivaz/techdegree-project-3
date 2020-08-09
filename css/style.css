@@ -54,6 +54,7 @@ form {
 
 
 
+
 .section2 {
     display: block;
     margin: 5px;
@@ -165,6 +166,19 @@ textarea:focus {
     border-style: none;
     width: 100%;
 }
+
+
+
+fieldset {
+    border-style: none;
+    margin-top: 15px;
+}
+
+fieldset legend {
+    margin-bottom: 15px;
+}
+
+
 
 @media (min-width: 768px) {
     

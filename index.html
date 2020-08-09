@@ -32,7 +32,9 @@
     <div class="border1"></div>
 
     <form class="section2">
-        <h2>Contact Information</h2>
+
+        <fieldset>
+        <legend>Contact Information</legend>
         <label class="item" for="name">Full Name</label>
         <input type="text" id="name" name="user_name" placeholder="Required" required>
       
@@ -120,6 +122,7 @@
         <br>
         <label class="item" for="zip">Zip Code</label>
         <input class="zip" type="number" id="zip" name="zip">
+        </fieldset>
     
     
        
@@ -132,7 +135,8 @@
         
         <div class="border2"></div>
     
-        <h2>Newsletter</h2>
+        <fieldset>
+        <legend>Newsletter</legend>
         
        
         <p>Selet the newsletter you would like to recieve</p>
@@ -165,6 +169,7 @@
                 <label class="item topics" for="bio">Other topics you'd like to hear about</label>
                 <textarea id="bio" name="user_bio" rows="5"></textarea>
             </div>
+         </fieldset>
             <br>
     
             <button class="btn" type="submit" value="submit">Sign UP</button>
