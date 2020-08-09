@@ -1,0 +1,216 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+   color: white;
+   background: #242f3d;
+   text-align: center;
+   padding: 20px;
+ 
+   
+   
+}
+
+body {
+    font-family: 'Noto Serif KR', serif;
+
+}
+
+
+.contain {
+    margin: 0 auto;
+    padding: 5%;
+    padding-top: 0;
+
+}
+
+.signup {
+    text-align: center;
+}
+
+
+.signup p {
+    color: #918f8f;
+}
+
+
+.item {
+color: #918f8f;
+
+}
+
+
+.border1 {
+    border-top: solid 3px #242f3d;
+    border-bottom: solid 1px #242f3d;
+    padding: 2px;
+}
+
+
+form {
+    overflow: hidden;
+}
+
+
+
+.section2 {
+    display: block;
+    margin: 5px;
+    
+    
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="telephone"] {
+    padding-top: 20px;
+    border-style: none;
+    background: #f5f3f3;
+    border-radius: 5px 5px 5px 5px;
+    width: 100%;
+    padding: 5%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+
+input[type="text"]:focus {
+    background-color: rgb(227, 237, 241);
+}
+
+input[type="email"]:focus {
+    background-color: rgb(227, 237, 241);
+}
+
+input[type="nubmer"]:focus {
+    background-color: rgb(227, 237, 241);
+}
+
+::placeholder {
+    text-align: right;
+}
+
+
+
+select[id="state"] {
+    padding-top: 20px;
+    padding: 5%;
+    border-radius: 5px 5px 5px 5px;
+    border-style: none;
+    background: #f5f3f3;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+select[id="state"]:focus {
+    background-color: rgb(227, 237, 241);
+}
+
+
+
+
+.border2 {
+    border: solid 1px #242f3d;
+    margin-top: 15px;
+}
+
+
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-top: 15px;
+    margin-right: 10px;
+    
+}
+
+.newsletter {
+    color: #918f8f;
+}
+
+
+.tell {
+    margin-top: 20px;
+}
+
+.topics {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+textarea {
+    border-radius: 5px 5px 5px 5px;
+    border-style: none;
+    background: #f5f3f3;
+    width: 100%;
+    margin-top: 15px;
+}
+
+
+textarea:focus {
+    background: rgb(227, 237, 241);
+    color: #333;
+  }
+
+
+.btn {
+    margin-top: 10px;
+    padding: 10px 0;
+    background: rgb(78, 197, 197);
+    color: #fff;
+    border-radius: 5px 5px 5px 5px;
+    border-style: none;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    
+    * {
+        box-sizing: border-box;
+    }
+
+    .contain {
+        width: 70%;
+        padding: 5%;
+        margin-top: 0;
+    }
+
+    
+
+    label {
+        display: inline-block;
+        width: 140px;
+        color: #242f3d;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="telephone"] {
+        width: 60%;
+        padding: 2%;
+    }
+
+    select[id="state"] {
+        width: 60%;
+        padding: 2%;
+    }
+
+    input[type="number"] {
+        width: 30%;
+        padding: 2%;
+    }
+
+    .item {
+        color: #242f3d;
+    }
+
+    .topics {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+
+}
